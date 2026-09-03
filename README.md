@@ -2,6 +2,30 @@
 
 Program C++ sederhana berbasis terminal (CLI) untuk simulasi sistem login bertingkat menggunakan struktur kontrol percabangan `if - else if - else`.
 
+## 💻 Cuplikan Kode
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    string n, pw;
+    cout << "masukkan nama anda ";
+    cin >> n;
+    cout << "masukkan pw anda ";
+    cin >> pw;
+    
+    if (n == "ronzz" && pw == "ronzz123") {
+        cout << "selamat datang bos " << n;
+    } else if (n == "rafi" && pw == "rafitzy7") {
+        cout << "halo owner " << n;
+    } else {
+        cout << "lu siapa mpruy";
+    }
+    return 0;
+}
+```
+
 ---
 
 ## 📌 Deskripsi
